@@ -16,11 +16,23 @@ img{
     height: 400px;
     width: 400px;
     padding-top: 0%;
+    
 
 }
 .section1{
-    display: flex;
     justify-content: center;
     float: inline-start;
     border-style: none;
+    text-decoration:rgb(110, 95, 103);
+    display: flex;
+
+}
+p{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+h3{
+    justify-content: center;
+    display: flex;
 }
