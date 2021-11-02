@@ -9,3 +9,18 @@ ul{
     
 
 }
+#nav-bar{
+    background-color: rgb(211, 183, 180);
+}
+image{
+    height: 500px;
+    width: 600px;
+
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    float: inline-start;
+    padding: 10px;
+    border-style: none;
+}
