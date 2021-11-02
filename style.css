@@ -12,15 +12,15 @@ ul{
 #nav-bar{
     background-color: rgb(211, 183, 180);
 }
-image{
-    height: 500px;
-    width: 600px;
+img{
+    height: 400px;
+    width: 400px;
+    padding-top: 0%;
 
 }
 .section1{
     display: flex;
     justify-content: center;
     float: inline-start;
-    padding: 10px;
     border-style: none;
 }
