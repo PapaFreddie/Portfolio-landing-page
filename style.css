@@ -19,36 +19,29 @@ header{
 
 }
 #nav-bar li a:hover{
-    background-color:rgb(244, 244, 245);
+    background-color:blueviolet;
+}
+.section0{
+
+    background-color: rgb(238, 231, 223);
+
+}
+.section0 h2{
+    text-align: center;
+    padding-top: 20px;
 }
 .section1{
-     float: center;
-}
-.section1 h3{
-    display: flex;
-    justify-content: center;  
-}
-.section1 p{
-    display: flex;
-    justify-content: center;   
-}
-img{
-    height: 300px;
-    width: 300px;
-    transform: translate(-10, 0);
-}
-
-.section2 h2{
-    text-align: center;
-}
-table{
     display: flex;
     justify-content: center;
-    position: relative;
-    text-align: center;
+    
 }
+#paragraph{
+    padding-left: 30px;
+}
+
 .section2{
-    background-color: rgb(238, 231, 223);
+    display: flex;
+    justify-content: space-between;
 }
 .section3 h2{
     justify-content: center;
@@ -83,110 +76,5 @@ table{
     width: 30px;
 }
 
-/*.wrapper{
-    margin: 10px;
-}
-header{
-    list-style-type: none;
-    justify-content: center;
-    text-align: center;
-    background-color: lightcoral;
-}
-#nav-bar{
-    list-style-type: none;
-    text-align: center;
-    justify-content: space-between;
-}
-#nav-bar ul{
-    list-style-type: none;
-    display: flex;
-    float: right;
-}
-#nav-bar li{
-    padding: 20px;
-    background-color: lightcoral;
-}
-img{
-    height: 300px;
-    width: 300px;
-}
-.section1 h3{
-    display: flex;
-    justify-content: center;  
-}
-.section1 p{
-    display: flex;
-    justify-content: center;   
-}
-/*.section2{
-    display: flex;
-    float: left;
-}
-.section2 h2{
-    justify-content: center;
-    text-align: center;
-}
-/*#education{
-    display: flex;
-    float: left;
-    text-align: center;
-}*/
-
-
-
-/*.section3{
-    display: flex;
-    justify-content: center;
-    float: left;*/
-
-/*.section3 h2{
-    text-align: center;
-    justify-content: center;*/
-
-/*.section2{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    background-color: lightcoral;
-}
-.section2 h2{
-    display: flex;
-    justify-content: center;
-}
-#Experience{
-    justify-content: center;
-    text-align: center;
-}
-#skills{
-    justify-content: center;
-    text-align: center;
-}
-
-
-
-.section3{
-    display: flex;
-    padding: 100px;
-    background-color: grey;
-    justify-content: space-between;
-}
-#photography{
-    float: left;
-}
-img{
-    height: 200px;
-    width: 300px;
-    border-radius: 20px;
-    justify-content: center;
-}
-.section3 h2{
-    text-align: center;
-    justify-content: center;
-}
-.services{
-    display: flex;
-    justify-content: center;
-    background-color: lightslategray;*/
 
 
