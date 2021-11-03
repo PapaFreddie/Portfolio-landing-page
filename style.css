@@ -54,6 +54,7 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 10px;
 }
 .section3 h2{
     text-align: center;
