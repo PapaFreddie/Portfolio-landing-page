@@ -12,10 +12,10 @@ header{
     float: right;
 }
 #nav-bar li{
-    padding: 20px;
     position: relative;
-    text-decoration: cornsilk;
-    border-bottom: none;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 10px;
 
 }
 #nav-bar li a:hover{
