@@ -72,13 +72,17 @@ img{
 .services h2{
     text-align: center;
 }
-.ui{
+.ui {
     display: flex;
     justify-content: space-between;
 }
 .services{
     background-color: rgb(165, 148, 168);
     padding: 10px;
+}
+.services img{
+    height: 100px;
+    width: 100px;
 }
 .contact{
     display: flex;
