@@ -14,7 +14,12 @@ header{
 #nav-bar li{
     padding: 20px;
     position: relative;
+    text-decoration: cornsilk;
+    border-bottom: none;
 
+}
+#nav-bar li a:hover{
+    background-color:rgb(244, 244, 245);
 }
 .section1{
      float: center;
