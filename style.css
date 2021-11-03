@@ -24,11 +24,13 @@ header{
 .section0{
 
     background-color: rgb(238, 231, 223);
+    padding-bottom: 0px;
 
 }
 .section0 h2{
     text-align: center;
     padding-top: 20px;
+    justify-content: center;
 }
 img{
     height: 300px;
@@ -75,6 +77,7 @@ img{
 }
 .services{
     background-color: rgb(165, 148, 168);
+    padding: 10px;
 }
 .contact{
     display: flex;
