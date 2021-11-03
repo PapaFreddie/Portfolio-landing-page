@@ -30,6 +30,10 @@ header{
     text-align: center;
     padding-top: 20px;
 }
+img{
+    height: 300px;
+    width: 300px;
+}
 .section1{
     display: flex;
     justify-content: center;
@@ -43,15 +47,24 @@ header{
     display: flex;
     justify-content: space-between;
 }
-.section3 h2{
-    justify-content: center;
-    text-align: left;
-}
 .section3{
     background-color: grey;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.section3 h2{
+    text-align: center;
+}
+.section3a{
+    display: flex;
+    justify-content: space-between;
+
+}
+.section3a img{
+    height: 200px;
+    width: 300px;
+    border-radius: 30px;
 }
 .services h2{
     text-align: center;
