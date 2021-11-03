@@ -1,4 +1,84 @@
-.wrapper{
+header{
+    background-color: rgb(243, 194, 194);
+    justify-content: right;
+    display: flex;
+}
+#nav-bar{
+    justify-content: right;
+}
+#nav-bar ul{
+    list-style-type: none;
+    display: flex;
+    float: right;
+}
+#nav-bar li{
+    padding: 20px;
+    position: relative;
+
+}
+.section1{
+     float: center;
+}
+.section1 h3{
+    display: flex;
+    justify-content: center;  
+}
+.section1 p{
+    display: flex;
+    justify-content: center;   
+}
+img{
+    height: 300px;
+    width: 300px;
+    transform: translate(-10, 0);
+}
+
+.section2 h2{
+    text-align: center;
+}
+table{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+.section2{
+    background-color: rgb(238, 231, 223);
+}
+.section3 h2{
+    justify-content: center;
+    text-align: left;
+}
+.section3{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.services h2{
+    text-align: center;
+}
+.ui{
+    display: flex;
+    justify-content: space-between;
+}
+.services{
+    background-color: rgb(165, 148, 168);
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(222, 224, 228);
+    padding: 5px;
+}
+.contact img{
+    height: 30px;
+    width: 30px;
+}
+
+/*.wrapper{
     margin: 10px;
 }
 header{
@@ -53,12 +133,12 @@ img{
     display: flex;
     justify-content: center;
     float: left;*/
-}
+
 /*.section3 h2{
     text-align: center;
     justify-content: center;*/
-}
-.section2{
+
+/*.section2{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -102,17 +182,6 @@ img{
 .services{
     display: flex;
     justify-content: center;
-    background-color: lightslategray;
-}
-.contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    background-color: lightsteelblue;
-    padding: 5px;
-}
-.contact img{
-    height: 30px;
-    width: 30px;
-}
+    background-color: lightslategray;*/
+
+
