@@ -1,38 +1,118 @@
-ul{
-    display: flex;
+.wrapper{
+    margin: 10px;
+}
+header{
     list-style-type: none;
-    flex-direction: row;
-    padding: 10px;
-    border-bottom: none;
-    border-color: aliceblue;
-    justify-content: space-evenly;
-    
-
+    justify-content: center;
+    text-align: center;
+    background-color: lightcoral;
 }
 #nav-bar{
-    background-color: rgb(211, 183, 180);
+    list-style-type: none;
+    text-align: center;
+    justify-content: space-between;
+}
+#nav-bar ul{
+    list-style-type: none;
+    display: flex;
+    float: right;
+}
+#nav-bar li{
+    padding: 20px;
+    background-color: lightcoral;
 }
 img{
-    height: 400px;
-    width: 400px;
-    padding-top: 0%;
-    
+    height: 300px;
+    width: 300px;
+}
+.section1 h3{
+    display: flex;
+    justify-content: center;  
+}
+.section1 p{
+    display: flex;
+    justify-content: center;   
+}
+/*.section2{
+    display: flex;
+    float: left;
+}
+.section2 h2{
+    justify-content: center;
+    text-align: center;
+}
+/*#education{
+    display: flex;
+    float: left;
+    text-align: center;
+}*/
 
-}
-.section1{
-    justify-content: center;
-    float: inline-start;
-    border-style: none;
-    text-decoration:rgb(110, 95, 103);
-    display: flex;
 
-}
-p{
-    justify-content: center;
+
+/*.section3{
     display: flex;
-    flex-direction: row;
-}
-h3{
     justify-content: center;
+    float: left;*/
+}
+/*.section3 h2{
+    text-align: center;
+    justify-content: center;*/
+}
+.section2{
     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: lightcoral;
+}
+.section2 h2{
+    display: flex;
+    justify-content: center;
+}
+#Experience{
+    justify-content: center;
+    text-align: center;
+}
+#skills{
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.section3{
+    display: flex;
+    padding: 100px;
+    background-color: grey;
+    justify-content: space-between;
+}
+#photography{
+    float: left;
+}
+img{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    justify-content: center;
+}
+.section3 h2{
+    text-align: center;
+    justify-content: center;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    background-color: lightslategray;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: lightsteelblue;
+    padding: 5px;
+}
+.contact img{
+    height: 30px;
+    width: 30px;
 }
