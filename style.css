@@ -75,6 +75,7 @@ img{
 .ui {
     display: flex;
     justify-content: space-between;
+
 }
 .services{
     background-color: rgb(165, 148, 168);
@@ -83,6 +84,11 @@ img{
 .services img{
     height: 100px;
     width: 100px;
+}
+.services ol{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
 }
 .contact{
     display: flex;
