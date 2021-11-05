@@ -24,7 +24,7 @@ header{
 .section0{
 
     background-color: rgb(238, 231, 223);
-    padding-bottom: 0px;
+    padding-bottom: 10px;
 
 }
 .section0 h2{
@@ -62,6 +62,7 @@ img{
 .section3a{
     display: flex;
     justify-content: space-between;
+  
 
 }
 .section3a img{
@@ -69,6 +70,7 @@ img{
     width: 300px;
     border-radius: 30px;
 }
+
 .services h2{
     text-align: center;
 }
@@ -89,6 +91,14 @@ img{
     display: flex;
     justify-content: space-between;
     padding: 30px;
+    
+}
+.services img{
+    display: flex;
+}
+.wd{
+    display: flex;
+    float: ;
 }
 .contact{
     display: flex;
@@ -102,6 +112,20 @@ img{
     height: 30px;
     width: 30px;
 }
+.wrapper{
+    border-bottom: none;
+}
 
-
-
+#photography a:hover{
+background-color: honeydew;
+text-decoration: honeydew;
+}
+#street a:hover{
+    background-color: lightcoral;
+    text-decoration: lime;
+    
+}
+.col-md-3 img{
+    height:80px;
+    width: 90px;
+}
