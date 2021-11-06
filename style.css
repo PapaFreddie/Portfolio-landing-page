@@ -1,29 +1,36 @@
-header{
+/*header{
     background-color: rgb(243, 194, 194);
     justify-content: right;
     display: flex;
+}*/
+*{
+    margin: 10px solid;
 }
-#nav-bar{
+.wrapper{
+    margin: 1px;
+    padding: 10px;
+}
+/*#nav-bar{
     justify-content: right;
-}
-#nav-bar ul{
+}*/
+/*#nav-bar ul{
     list-style-type: none;
     display: flex;
     float: right;
-}
-#nav-bar li{
+}*/
+/*#nav-bar li{
     position: relative;
     justify-content: space-between;
     padding-left: 30px;
     padding-right: 10px;
 
-}
-#nav-bar li a:hover{
+}*/
+/*#nav-bar li a:hover{
     background-color:blueviolet;
-}
+}*/
 .section0{
 
-    background-color: rgb(238, 231, 223);
+    background-color: rgb(206, 198, 188);
     padding-bottom: 10px;
 
 }
@@ -42,14 +49,14 @@ img{
     justify-content: center;
     
 }*/
-#paragraph{
+/*#paragraph{
     padding-left: 30px;
-}
+}*/
 
-.section2{
+/*.section2{
     display: flex;
     justify-content: space-between;
-}
+}*/
 .section3{
     background-color: grey;
     display: flex;
@@ -57,29 +64,29 @@ img{
     justify-content: center;
     padding: 10px;
 }
-.section3 h2{
+/*.section3 h2{
     text-align: center;
-}
-.section3a{
+}*/
+/*.section3a{
     display: flex;
     justify-content: space-between;
   
 
-}
-.section3a img{
+}*/
+/*.section3a img{
     height: 200px;
     width: 300px;
     border-radius: 30px;
-}
+}*/
 
 .services h2{
     text-align: center;
 }
-.ui {
+/*.ui {
     display: flex;
     justify-content: space-between;
 
-}
+}*/
 .services{
     background-color: rgb(165, 148, 168);
     padding: 10px;
@@ -99,7 +106,6 @@ img{
 }
 .wd{
     display: flex;
-    float: ;
 }
 .contact{
     display: flex;
@@ -117,16 +123,16 @@ img{
     border-bottom: none;
 }
 
-#photography a:hover{
+/*#photography a:hover{
 background-color: honeydew;
 text-decoration: honeydew;
-}
-#street a:hover{
+}*/
+/*#street a:hover{
     background-color: lightcoral;
     text-decoration: lime;
     
-}
-.container{
+}*/
+.navbar-style{
     background-color: rgb(240, 173, 173);
 }
 .col-md-3 img{
@@ -170,5 +176,13 @@ a.btn-two{
 .col-sm-6 img{
     height: 300px;
     width: 300px;
+
+}
+.container2{
+   padding-bottom: 0px;
+   padding-top: 0px;
+   padding-left: 500px;
+   padding-right: 200px;
+    
 
 }
