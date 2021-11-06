@@ -126,6 +126,9 @@ text-decoration: honeydew;
     text-decoration: lime;
     
 }
+.container{
+    background-color: rgb(240, 173, 173);
+}
 .col-md-3 img{
     height:80px;
     width: 90px;
@@ -134,7 +137,7 @@ text-decoration: honeydew;
     height: 100vh;
 }
 .navbar-style{
-    box-shadow: 0 5px #fefefe;
+    box-shadow: 0 5px gray;
 }
 .logo{
     height: 50px;
@@ -165,16 +168,7 @@ a.btn-two{
     color: whitesmoke;
 }
 .col-sm-6 img{
-    height: 400px;
-    width: 400px;
-
-}
-.container2{
-    justify-content: center;
-    padding-bottom: 0px;
-    padding-left: 200px;
-    padding-right: 400px;
-    padding-top: 20px;
-    display: flex;
+    height: 300px;
+    width: 300px;
 
 }
