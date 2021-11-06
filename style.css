@@ -180,6 +180,23 @@ a.btn-two{
     height: 30px;
     width: 30px;
 }
+a.btn-three{
+    margin: 20px 10px;
+    width: 60px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 36px;
+    background-color: green;
+    color: whitesmoke;
+    float: left;
+}
+.form{
+    border-radius: 10px;
+    width: 210px;
+    height: 10px;
+    text-decoration: linen;
+    
+}
 /*ignore this style!
 #photography a:hover{
 background-color: honeydew;
