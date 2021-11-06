@@ -36,11 +36,11 @@ img{
     height: 300px;
     width: 300px;
 }
-.section1{
+/*.section1{
     display: flex;
     justify-content: center;
     
-}
+}*/
 #paragraph{
     padding-left: 30px;
 }
@@ -146,4 +146,12 @@ text-decoration: honeydew;
 
 li a{
     color: black;
+}
+a.btn{
+    margin: 20px 10px;
+    width: 100px;
+    padding: 3px;
+    border-radius: 30px;
+    background-color: rgb(99, 124, 99);
+    color: darkgray;
 }
