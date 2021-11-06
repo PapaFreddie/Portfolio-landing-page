@@ -129,3 +129,21 @@ text-decoration: honeydew;
     height:80px;
     width: 90px;
 }
+.header{
+    height: 100vh;
+}
+.navbar-style{
+    box-shadow: 0 5px #fefefe;
+}
+.logo{
+    height: 50px;
+    width: 60px;
+    padding: 2px 10px;
+}
+.icon-bar{
+    background-color: rgb(240, 128, 190);
+}
+
+li a{
+    color: black;
+}
