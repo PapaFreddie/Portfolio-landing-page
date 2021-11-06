@@ -43,7 +43,7 @@ a.btn{
     width: 100px;
     padding: 3px;
     border-radius: 30px;
-    background-color: rgb(99, 124, 99);
+    background-color: rgb(4, 56, 4);
     color: darkgray;
 }
 .col-sm-6 img{
@@ -196,6 +196,23 @@ a.btn-three{
     height: 10px;
     text-decoration: linen;
     
+}
+.form1{
+    border-radius: 10px;
+    width: 210px;
+    height: 10px;
+    text-decoration: rgb(19, 89, 158);
+
+}
+a.btn-four{
+    margin: 20px 10px;
+    width: 60px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 36px;
+    background-color: rgb(55, 156, 55);
+    color: whitesmoke;
+    float: left;
 }
 /*ignore this style!
 #photography a:hover{
