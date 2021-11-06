@@ -47,14 +47,16 @@ a.btn{
 .col-sm-6 img{
     height: 300px;
     width: 300px;
+    float: right;
 
 }
 .container2{
-   padding-bottom: 0px;
-   padding-top: 0px;
-   padding-left: 400px;
-   padding-right: 200px;
    background-color: lightblue;
+   padding-left: 500px;
+   padding-right: 200px;
+   display: flex;
+   padding-top: 0px;
+   padding-bottom: 0px;
 }
 
 /*Ignore this style!
@@ -164,7 +166,7 @@ a.btn-two{
     width: 120px;
     padding: 3px;
     border-radius: 35px;
-    background-color: blue;
+    background-color: rgb(255, 51, 0);
     color: whitesmoke;
 }
 .contact{
