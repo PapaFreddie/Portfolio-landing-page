@@ -19,7 +19,7 @@ header{
     width: 90px;
 }
 .header{
-    height: 100vh;
+    padding-top: 0px;
 }
 .navbar-style{
     box-shadow: 0 5px gray;
@@ -31,6 +31,7 @@ header{
 }
 .icon-bar{
     background-color: rgb(13, 13, 14);
+    padding-bottom: 0px;
 }
 
 li a{
@@ -82,7 +83,7 @@ a.btn{
 
     background-color: rgb(206, 198, 188);
     padding-bottom: 0px;
-    padding-top: 40px
+    padding-top: 10px
 
 }
 .section0 h2{
@@ -170,8 +171,6 @@ a.btn-two{
     color: whitesmoke;
 }
 .contact{
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     text-align: center;
     background-color: rgb(222, 224, 228);
