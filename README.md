@@ -11,7 +11,7 @@ use the command below to install
 ### Setup
 so as to access the project on ur local files, you have to clone it using the steps below
 1. open the terminal. press CTRL+ALT+T
-2. use this comand to clone 's git clone https://papafreddie.github.io/Moringa-School-IP-One/
+2. use this comand to clone 's git clone https://papafreddie.github.io/Portfolio-landing-page/
 ### Contacts:. 
 * fredpapah20@gmail.com
 * 0770113958
