@@ -4,15 +4,13 @@ header{
     justify-content: right;
     display: flex;
 }*/
-*{
-    margin: 10px solid;
-}
+
 .wrapper{
-    margin: 1px;
     padding: 10px;
 }
 .navbar-style{
     background-color: rgb(240, 173, 173);
+    padding-bottom: 0px;
 }
 .col-md-3 img{
     height:80px;
@@ -20,15 +18,23 @@ header{
 }
 .header{
     padding-top: 0px;
+    padding-bottom: 0px;
+    height: 0vh;
+    padding-right: 0px;
     
 }
+.nav-header{
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
 .navbar-style{
-    box-shadow: 0 5px gray;
+    box-shadow: 0 3px gray;
+    padding-bottom: 0px;
 }
 .logo{
     height: 50px;
-    width: 60px;
-    padding: 2px 10px;
+    width: 50px;
+    padding: 5px;
 }
 .icon-bar{
     background-color: rgb(13, 13, 14);
@@ -50,14 +56,18 @@ a.btn{
     height: 300px;
     width: 300px;
     float: right;
+    padding-bottom: 0px;
 
 }
+
 .container2{
-   padding-left: 500px;
-   padding-right: 200px;
-   display: flex;
-   padding-top: 0px;
+   padding-left: 300px;
+   padding-right: 0px;
    padding-bottom: 0px;
+   background-color: rgb(232, 238, 238);
+   padding-top: 53.5px;
+
+
 }
 
 /*Ignore this style!
@@ -83,7 +93,8 @@ a.btn{
 
     background-color: rgb(206, 198, 188);
     padding-bottom: 0px;
-    padding-top: 10px
+    padding-top: 20px;
+    
 
 }
 .section0 h2{
@@ -228,3 +239,19 @@ text-decoration: honeydew;
     
 }*/
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    body {
+        background-color: rgb(1, 19, 19);
+        color: rgb(70, 100, 197);
+    }
+}
+@media screen and (min-width: 768px) {
+  body {
+    background-color: none;
+  }
+  .column {
+    width: 200px;
+    float: right;
+    padding: 10px;
+  }
+}
