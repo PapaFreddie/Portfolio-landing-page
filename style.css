@@ -180,6 +180,9 @@ a.btn-two{
     height: 30px;
     width: 30px;
 }
+.contact h2{
+    text-decoration: mediumaquamarine;
+}
 a.btn-three{
     margin: 20px 10px;
     width: 60px;
