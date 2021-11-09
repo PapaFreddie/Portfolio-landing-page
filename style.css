@@ -7,10 +7,12 @@ header{
 
 .wrapper{
     padding: 10px;
+    background-color: rgb(68, 67, 67);
 }
 .navbar-style{
-    background-color: rgb(240, 173, 173);
     padding-bottom: 0px;
+    font-weight: bold;
+    font-size: 17px;
 }
 .col-md-3 img{
     height:80px;
@@ -28,13 +30,15 @@ header{
     padding-top: 0px;
 }
 .navbar-style{
-    box-shadow: 0 3px gray;
     padding-bottom: 0px;
 }
 .logo{
     height: 50px;
     width: 50px;
     padding: 5px;
+}
+.logo:hover{
+    box-shadow: 0px 0px 5px white;
 }
 .icon-bar{
     background-color: rgb(13, 13, 14);
@@ -54,18 +58,46 @@ a.btn{
 }
 .col-sm-6 img{
     height: 300px;
-    width: 300px;
+    width: 350px;
     float: right;
     padding-bottom: 0px;
     padding-top: 2px;
 
 }
+.col-sm-6 img:hover{
+    transform: scale(1.);
+    box-shadow: 5px 5px 15px white;
+    cursor: pointer;
+}
+.col-sm-6 h2{
+    color: rgb(206, 65, 18);
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+
+}
+.col-sm-6 h2:hover{
+    transform: scale(0.9);
+    box-shadow: 2px 2px 5px rgb(211, 211, 218);
+    cursor: pointer;
+    width: 100px;
+}
+
+.col-sm-6 p{
+    color: rgb(230, 214, 213);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+.col-sm-6 p:hover{
+    transform: scale(0.9);
+    box-shadow: 2px 2px 5px gainsboro;
+    cursor: pointer;
+    width: 150px;
+}
 .container2{
    padding-left: 300px;
    padding-right: 0px;
    padding-bottom: 0px;
-   background-color: rgb(232, 238, 238);
    padding-top: 53.5px;
 
 
@@ -92,7 +124,6 @@ a.btn{
 }*/
 .section0{
 
-    background-color: rgb(206, 198, 188);
     padding-bottom: 0px;
     padding-top: 20px;
     
@@ -102,6 +133,10 @@ a.btn{
     text-align: center;
     padding-top: 0px;
     justify-content: center;
+    color: whitesmoke;
+}
+.section0 h2:hover{
+    color: rgb(41, 8, 41);
 }
 img{
     height: 200px;
@@ -122,12 +157,15 @@ img{
     display: flex;
     justify-content: space-between;
 }*/
-.section3{
-    background-color: grey;
+/*.section3{
     display: flex;
     flex-direction: column;
+    padding: 0px;
+}*/
+.section3 .row{
     justify-content: center;
-    padding: 10px;
+    padding: 0px;
+    flex-direction: ;
 }
 
 .section3 h2{
@@ -154,7 +192,7 @@ img{
     justify-content: space-between;
 
 }*/
-.services{
+/*.services{
     background-color: rgb(165, 148, 168);
     padding: 10px;
 }
@@ -181,18 +219,17 @@ a.btn-two{
     border-radius: 35px;
     background-color: rgb(255, 51, 0);
     color: whitesmoke;
-}
+}*/
 .contact{
     justify-content: center;
     text-align: center;
-    background-color: rgb(222, 224, 228);
     padding: 5px;
 }
 .contact img{
     height: 30px;
     width: 30px;
 }
-.contact h2{
+/*.contact h2{
     text-decoration: mediumaquamarine;
 }
 a.btn-three{
@@ -228,7 +265,7 @@ a.btn-four{
     background-color: rgb(155, 88, 182);
     color: whitesmoke;
     float: left;
-}
+}*/
 /*ignore this style!
 #photography a:hover{
 background-color: honeydew;
@@ -243,16 +280,150 @@ text-decoration: honeydew;
 @media screen and (min-width: 480px) and (max-width: 767px) {
     body {
         background-color: rgb(1, 19, 19);
-        color: rgb(70, 100, 197);
+        color: rgb(142, 149, 182);
     }
 }
 @media screen and (min-width: 768px) {
   body {
     background-color: none;
   }
-  .column {
-    width: 200px;
-    float: right;
+/*.card{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    height: 75vh;
+    width: 45vh;
+    font-family: monospace;
+    border-radius: 20px;
+    background-color: rgb(28, 32, 32);
+    box-shadow: rgb(15, 15, 15) 5px 5px 15px;
+    text-align: center;
+    cursor: pointer;
+}
+.card-image{
+    grid-area: image;
+    background: url(images/uxux-removebg-preview.png);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-size: cover;
+}
+.card-text{
+    grid-area: text;
+    margin: 20px;
+
+}
+.card-text h3{
+    color: darkorange;
+}
+.card-text p{
+    color: darkslategrey;
+    font-size: 12px;
+    font-weight: 300px;
+}
+.card-stats{
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(154, 184, 154);
+    padding-bottom: 0px;
+
+}
+.card-stats .stats{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     padding: 10px;
-  }
+    color: rgb(27, 17, 3);
+    
+
+
+}
+.card-stats .stats:hover{
+    transform: scale(1.2);
+
+}
+.card:hover{
+    transform: scale(1.0);
+    box-shadow: 5px 5px 15px rgb(236, 24, 42);
+}
+.services .card{
+    justify-content: center;
+}*/
+.cards{
+    margin: 0px;
+    display: flex;
+    grid-template-columns: repeat(2 1fr);
+    gap: 20px;
+    font-family: monospace;
+    justify-content: center;
+    padding: 30px;
+
+}
+.card{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text";
+    height: 80vh;
+    width: 50vh;
+    font-family: monospace;
+    border-radius: 20px;
+    background-color: rgb(68, 128, 128);
+    box-shadow: rgb(73, 53, 53) 5px 5px 15px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.card-image{
+    grid-area: image;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+.card-content{
+    grid-area: text;
+    margin: 20px;
+
+}
+.card-content h3{
+    color: darkorange;
+}
+.card-text p{
+    color: darkslategrey;
+    font-size: 12px;
+    font-weight: 300px;
+}
+.card:hover{
+    transform: scale(1.0);
+    box-shadow: 5px 5px 15px rgb(182, 109, 115);
+}
+.card p{
+    color: rgb(205, 214, 221);
+}
+.card a{
+    color: rgb(5, 57, 100);
+}
+.card a:hover{
+    background-color: rgb(247, 242, 242);
+    box-shadow: 2px 2px 3px rgb(240, 210, 156);
+}
+.card-text h3{
+    color: rgb(250, 232, 199);
+}
+
+.email p{
+    color: rgb(218, 218, 137);
+}
+.email p:hover{
+    color: thistle;
+}
+.call p{
+    color: thistle;
+}
+.call p:hover{
+    color: rgb(218, 218, 137);
 }
